@@ -1,0 +1,2 @@
+Testes funcionais exercitam dependencias do sistema, enquando os testes de unidade não.
+Testes funcionais exercitam uma tarefa end-to-end no sistema, enquando os testes de unidade exercitam apenas uma função específica
