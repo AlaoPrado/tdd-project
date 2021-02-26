@@ -1,0 +1,19 @@
+Nesse processo, o primeiro passo é escrever um teste funcional. No
+segundo passo, o teste funcional é executado. Se ele não passar, escreva
+um código mínimo até que o código funcional esteja passando. Caso ele
+passe, veja se ele precisa ser melhorado através da refatoração. Se
+ele precisar ser refetorado, escreva um código mínimo minimo garantindo
+que o teste funcional continue passando. Após a refatoração, é verique
+novamente se ele precisa ser refatoradoo. Caso precise, repita o processo
+de refatoração. Caso contrário, escreva outro teste funcional para outra
+funcionalidade do sistema se houver.
+
+A escrita de código mínimo também utiliza um ciclo TDD. Seu primeiro passo
+é escrever um teste de unidade para a próxima funcionalidade exigida para
+o teste funcional passar. O segundo passo consiste em rodar o teste de
+unidade. Caso ele falhe, é preciso escrever um código mínimo (sem outro 
+cilco TDD) até que ele passe. Caso ele passe, verifique se ele precisa
+ser melhorado através da refatoração. Se for o caso, escreva um código
+mínimo para refatoração e volte para o passo 2. Se não for, volte para o
+passo 1 até que o teste funcional não exija novas funcionalidades para
+passar.
